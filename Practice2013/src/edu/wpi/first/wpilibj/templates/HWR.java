@@ -24,21 +24,11 @@ public class HWR {
 
     
     //Buttons
-    public static final int LONGER_THING                = HWP.BUTTON_9;
-    public static final int LOWER_DOWN                  = HWP.BUTTON_11;
-    public static final int STOP_PICKERUPPER            = HWP.BUTTON_9;
-    public static final int OPEN_LATCH                  = HWP.BUTTON_2;
-    public static final int CLOSE_LATCH                 = HWP.BUTTON_3;
-    public static final int RETRACT_SHOOTER             = HWP.BUTTON_4;
-    public static final int SHOOT                       = HWP.BUTTON_7;
-    public static final int THE_THING                   = HWP.BUTTON_8;
-    public static final int VENT                        = HWP.BUTTON_5;
-    public static final int GYRO_RESET                  = HWP.BUTTON_8;
-    public static final int INTAKE_BALL                 = HWP.BUTTON_4;
-    public static final int RELEASE_BALL                = HWP.BUTTON_5;
-    public static final int GYRO_DRIVE_ACTIVATE         = HWP.BUTTON_3;
-    public static final int BAD_SHOOT                   = HWP.BUTTON_11;
-    public static final int KEEP_BAD_LOWERED            = HWP.BUTTON_3;
+    public static final int ACCEL_SHOOTER                = HWP.BUTTON_2;
+    public static final int FIRE_SHOOTER				 = HWP.BUTTON_3;
+    public static final int SPIT_SHOOTER 				 = HWP.BUTTON_4;
+    public static final int RETRACT_CLIMBER				 = HWP.BUTTON_10;
+    public static final int EXPAND_CLIMBER				 = HWP.BUTTON_11;
   
     
     //Solenoid module 1 (12v)
