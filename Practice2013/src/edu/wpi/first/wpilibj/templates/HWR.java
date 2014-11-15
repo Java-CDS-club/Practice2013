@@ -14,8 +14,7 @@ public class HWR {
     //Reset the PWM Values to whatever you need
    public static final int LEFT_MOTOR               = HWP.PWM_1;
    public static final int RIGHT_MOTOR              = HWP.PWM_2;
-   public static final int LEFT_PICKERUPPER_MOTOR   = HWP.PWM_3;
-   public static final int RIGHT_PICKERUPPER_MOTOR  = HWP.PWM_4;
+   public static final int SHOOTER_MOTOR   			= HWP.PWM_3;
     
     //Joystick
     public static final int LEFT_JOYSTICK               = HWP.JOY_1;
