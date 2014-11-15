@@ -12,6 +12,7 @@ public class Shooter {
 	Jaguar shootingWheel = new Jaguar(HWR.SHOOTER_MOTOR);
 	Solenoid shootingSolenoid = new Solenoid(HWR.FIRE_PISTON);
 	Solenoid spittingSolenoid = new Solenoid(HWR.SPIT_PISTON);
+	
 	public void accelerateWheel() {
 		shootingWheel.set(0.75);
 	}
@@ -22,7 +23,8 @@ public class Shooter {
 	}
 	
 	public void spit() {
-		
+		spittingSolenoid.set(true);
+		spittingSolenoid.set(false);
 	}
 
 }
