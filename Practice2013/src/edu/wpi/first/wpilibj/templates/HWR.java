@@ -34,17 +34,15 @@ public class HWR {
     //Solenoid module 1 (12v)
     public static final int SOLENOID_SLOT_12_VOLT           = HWP.SOLENOID_MODULE_2;
     public static final int SOLENOID_INDEX                  = 31;
-    public static final int LATCH_PISTON                    = HWP.SOLENOID_3;
-    public static final int RIGHT_PISTON_TOP                = HWP.SOLENOID_2;
-    public static final int LEFT_PISTON_TOP                 = HWP.SOLENOID_1;
-    public static final int RIGHT_PISTON_BOTTOM             = HWP.SOLENOID_4;
-    public static final int LEFT_PISTON_BOTTOM              = HWP.SOLENOID_5;
+    public static final int FIRE_PISTON                     = HWP.SOLENOID_1;
+    public static final int SPIT_PISTON  					= HWP.SOLENOID_2;
+    public static final int CLIMBER_PISTONS					= HWP.SOLENOID_3;
     
-    //Solenoid module 2 (24v)
+    /*//Solenoid module 2 (24v)
     public static final int SOLENOID_SLOT_24_VOLT           = HWP.SOLENOID_MODULE_1; 
     public static final int SOLENOID_24_INDEX               = 3;
-    public static final int BACK_PICKER_UPPER_PISTON        = HWP.SOLENOID_1;
-    public static final int FRONT_PICKER_UPPER_PISTON       = HWP.SOLENOID_2;
+    public static final int BACK_PICKER_UPPER_PISTON        = HWP.SOLENOID_4;
+    public static final int FRONT_PICKER_UPPER_PISTON       = HWP.SOLENOID_5;*/
     
     
     //Compressors
